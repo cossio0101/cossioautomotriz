@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cossio Automotriz</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #05070d;
+  color: #fff;
+}
+
+/* HEADER */
+header {
+  background: #000;
+  text-align: center;
+  padding: 15px;
+}
+
+header img {
+  height: 70px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)),
+  url('https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2') center/cover;
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #00c2ff;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 25px;
+  background: #00c2ff;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* SERVICIOS */
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+  gap: 15px;
+}
+
+.card {
+  background: #0d1323;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* FOOTER PRO */
+.footer {
+  background: #000;
+  padding: 30px 20px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.footer-box h3 {
+  color: #00c2ff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}
+
+/* WHATSAPP */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <img src="logo.png" alt="Cossio Automotriz">
+</header>
+
+<section class="hero">
+  <h1>COSSIO AUTOMOTRIZ</h1>
+  <p>Diesel y Bencineros | Liviano y pesado</p>
+  <a class="btn" href="https://wa.me/56977047084">Cotizar por WhatsApp</a>
+</section>
+
+<section class="section">
+  <h2>Servicios</h2>
+  <div class="services">
+    <div class="card">Cambio de aceite</div>
+    <div class="card">Frenos y suspensión</div>
+    <div class="card">Diagnóstico</div>
+    <div class="card">Limpieza DPF</div>
+    <div class="card">Motor</div>
+    <div class="card">Flotas</div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h3>Ubicación</h3>
+      <p>Camino Aguas Claras 5600</p>
+      <p>Pudahuel</p>
+    </div>
+
+    <div class="footer-box">
+      <h3>Contacto</h3>
+      <p>+56 9 7704 7084</p>
+    </div>
+
+    <div class="footer-box">
+      <h3>Horario</h3>
+      <p>Lunes a Viernes</p>
+      <p>08:00 - 18:00</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Cossio Automotriz
+  </div>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/56977047084">💬</a>
+
+</body>
+</html>
